@@ -1,0 +1,98 @@
+<nav class="header navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+
+        <!-- Left Section -->
+        <div class="d-flex align-items-center">
+            <a class="navbar-brand me-3" href="#">
+                <!-- <img src="assets/logo.png" class="logo" alt="Logo" /> -->
+                <img style="height: 50px;" src="https://d1jcsq1lz9cdtw.cloudfront.net/media/logo.png"
+                    alt="Ticket Khidakee" id="homepage-logo">
+                <!-- <img src="https://d1jcsq1lz9cdtw.cloudfront.net/media/logo-1.png" alt="Ticket Khidakee" id="small-screen-logo"> -->
+            </a>
+            <div class="d-none d-md-block">
+                <form class="d-none d-lg-block me-3">
+                    <div class="input-group rounded-pill"
+                        style="width: 450px; background-color: #f8f9fa; overflow: hidden;">
+                        <span style="width: 40px;" class="input-group-text bg-transparent border-0 ps-3 pe-0">
+                            <i class="bi bi-search text-muted"></i>
+                        </span>
+                        <input type="search" class="form-control bg-transparent border-0 rounded-pill ps-0"
+                            placeholder="Search for Movies, Events, Plays, Sports and Activities"
+                            style="height: 45px;" />
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- Toggler Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav"
+            aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right Section -->
+        <div class="d-flex align-items-center desktop-only">
+
+            <!-- header.component.html -->
+            <!-- <div class="location-display d-flex align-items-center me-4">
+                <img src="assets/location.png" alt="Location" class="location-icon me-2" />
+                <span class="city-name">Mumbai</span>
+            </div> -->
+
+
+            <div class="position-relative me-3">
+                <i style="color: white;" class="bi bi-gift fs-5"></i>
+                <span class="offer-badge">2</span>
+            </div>
+            <div class="position-relative me-3">
+                <i style="color: white;" class="bi bi-bell fs-5"></i>
+                <span class="notify-badge">1</span>
+            </div>
+
+            <button class="btn login-btn">Login</button>
+        </div>
+
+        <!-- Mobile Menu: This must be inside .container-fluid -->
+        <div class="collapse navbar-collapse mt-3" id="mobileNav">
+            <ul class="navbar-nav w-100">
+                <li class="nav-item"><a class="nav-link" href="#">Movies</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Stream</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                <!-- Add mobile login or city dropdown if you want -->
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!-- Genres Strip: OUTSIDE NAV -->
+<div class="genres-strip w-100 py-2 px-3">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+        
+        <!-- Genres Links -->
+        <div class="d-flex flex-wrap gap-3 text-nowrap overflow-auto">
+          <a href="#" class="genre-link">Action</a>
+          <a href="#" class="genre-link">Comedy</a>
+          <a href="#" class="genre-link">Drama</a>
+          <a href="#" class="genre-link">Thriller</a>
+          <a href="#" class="genre-link">Horror</a>
+          <a href="#" class="genre-link">Romance</a>
+          <a href="#" class="genre-link">Sci-Fi</a>
+          <a href="#" class="genre-link">Animation</a>
+        </div>
+  
+        <!-- Location + Badges -->
+        <div class="d-flex align-items-center gap-3 mt-2 mt-md-0">
+          <!-- Location -->
+          <div class="location-display d-flex align-items-center">
+            <img src="assets/location.png" alt="Location" class="location-icon me-2" />
+            <span class="city-name">Mumbai</span>
+          </div>
+  
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  

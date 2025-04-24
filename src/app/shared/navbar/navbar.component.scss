@@ -1,0 +1,118 @@
+/* HEADER STYLING */
+.header {
+    background-color: #ff6c6c;
+    border-bottom: 1px solid #f0f0f0;
+  
+    /* Logo */
+    .logo {
+      height: 40px;
+    }
+  
+    /* Navbar Links */
+    .nav-link {
+      color: white;
+      font-weight: 500;
+  
+      &:hover {
+        color: #e71a0f;
+      }
+    }
+  
+    /* Dropdown Select */
+    .form-select {
+      min-width: 100px;
+      font-size: 0.875rem;
+    }
+  
+    /* Login Button */
+    .login-btn {
+      color: white;
+      border: 1px solid white;
+      background: transparent;
+      border-radius: 20px;
+      padding: 0.3rem 1rem;
+      font-size: 0.875rem;
+      transition: 0.3s;
+  
+      &:hover {
+        background-color: #e71a0f;
+        color: #fff;
+      }
+    }
+  
+    /* Nav Item Spacing */
+    .navbar-nav .nav-item {
+      margin-right: 1rem;
+    }
+  
+  
+  
+   /* Badges */
+   .offer-badge,
+   .notify-badge {
+     position: absolute;
+     top: 0;
+     right: 0;
+     transform: translate(50%, -50%);
+     background: #e71a0f;
+     color: #fff;
+     font-size: 0.6rem;
+     padding: 0.2rem 0.4rem;
+     border-radius: 50%;
+   }
+  
+    /* Responsive Utilities */
+    @media (max-width: 991px) {
+      .desktop-only {
+        display: none !important;
+      }
+    }
+  
+    @media (max-width: 576px) {
+      .hide-xs {
+        display: none !important;
+      }
+    }
+  
+    @media (min-width: 992px) {
+      #mobileNav {
+        display: none !important;
+      }
+    }
+  }
+
+     /* Location Display */
+     .location-display {
+        .location-icon {
+          width: 15px;
+          height: 20px;
+          // filter: brightness(0) invert(1); // Uncomment if icon is dark
+        }
+    
+        .city-name {
+          font-size: 0.9rem;
+          
+          user-select: none;
+        }
+      }
+  
+  /* GENRES STRIP */
+  .genres-strip {
+    background-color: #f8f9fa; // Light grey
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+  
+    .genre-link {
+      color: #333;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.875rem;
+      white-space: nowrap;
+  
+      &:hover {
+        color: #e71a0f;
+        text-decoration: none;
+      }
+    }
+  }
+  
