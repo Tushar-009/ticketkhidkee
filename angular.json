@@ -32,10 +32,21 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/night-mode.css",
+              "src/assets/css/vertical-responsive-menu.min.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css",
+              "src/assets/vendor/fontawesome-free/css/all.min.css",
+              "src/assets/vendor/OwlCarousel/assets/owl.carousel.css",
+              "src/assets/vendor/OwlCarousel/assets/owl.theme.default.min.css",
+              "src/assets/vendor/chartist/dist/chartist.min.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/chartist/dist/chartist.min.js"
             ]
           },
           "configurations": {
@@ -99,14 +110,28 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/bootstrap-icons/font/bootstrap-icons.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/style.css",
+              "src/assets/css/responsive.css",
+              "src/assets/css/night-mode.css",
+              "src/assets/css/vertical-responsive-menu.min.css",
+              "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+              "src/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css",
+              "src/assets/vendor/fontawesome-free/css/all.min.css",
+              "src/assets/vendor/OwlCarousel/assets/owl.carousel.css",
+              "src/assets/vendor/OwlCarousel/assets/owl.theme.default.min.css",
+              "src/assets/vendor/chartist/dist/chartist.min.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/vendor/chartist/dist/chartist.min.js"
             ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5df0755a-0a05-4888-86bc-117caf6ac69f"
   }
 }
